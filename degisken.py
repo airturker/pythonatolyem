@@ -1,0 +1,2 @@
+isim="türker"
+print(isim)
