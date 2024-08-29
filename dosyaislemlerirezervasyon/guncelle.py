@@ -1,5 +1,5 @@
 def rezervasyon_güncelle(rezervasyon_no):
-  dosya=open("rezervasyon.txt","r+",encoding="utf-8")
+  dosya=open(".\\dosyaislemlerirezervasyon\\rezervasyon.txt","r+",encoding="utf-8")
   rezervasyonlar=dosya.readlines()
   if rezervasyon_no < len(rezervasyonlar):
     print("rezervason bilgileriniz: ", rezervasyonlar[rezervasyon_no])

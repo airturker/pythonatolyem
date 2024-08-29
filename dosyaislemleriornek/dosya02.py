@@ -1,6 +1,6 @@
 # Girilen sayının asal olup olmadığını dosyadan karşılaştıran program
 
-with open("asalsayı.txt","r") as dosya :  # asalsayıların kayıtlı olduğu belge açılır
+with open(".\\dosyaislemleriornek\\asalsayı.txt","r") as dosya :  # asalsayıların kayıtlı olduğu belge açılır
   veri=dosya.read() # dosya okunur
   asal_sayılar=veri.split(" ")  # okunanlar bir listeye atılır. her boşlukta bir içerik bölünerek atılır.
 

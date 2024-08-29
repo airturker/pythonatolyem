@@ -3,12 +3,12 @@
 def rezerevasyon_yap():
   rezervasyon_bilgi=input("rezervasyon bilgilerinizi giriniz: ")
   veri=rezervasyon_bilgi+","
-  dosya=open("rezervasyon.txt","a")
+  dosya=open(".\\dosyaislemleriornek\\rezervasyon.txt","a")
   dosya.write(veri)
   dosya.close()
 def rezerevasyon_kontrol() :
   rezervasyon_bilgi=input("rezervasyon bilgilerinizi giriniz: ")
-  with open("rezervasyon.txt","r") as dosya:
+  with open(".\\dosyaislemleriornek\\rezervasyon.txt","r") as dosya:
     veri=dosya.read()
     rezervasyonlar=veri.split(",")
     if rezervasyon_bilgi in rezervasyonlar:

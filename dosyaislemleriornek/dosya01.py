@@ -14,6 +14,6 @@ for i in asal_sayi:   #yukarıda bulunan asal sayılar döng ile tek tek alınd�
   veri+=str(i) # dosyaya string olarak yazılabildikleri için dönüştürüldü.
   veri+=" "
 
-dosya=open ("asalsayı.txt","w") # dosya yazma işlemi için açıldı
+dosya=open (".\\dosyaislemleriornek\\asalsayı.txt","w") # dosya yazma işlemi için açıldı
 dosya.write(veri) # dosyaya veri değişkenindekiler yazıldı.
 dosya.close() 

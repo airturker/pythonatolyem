@@ -1,6 +1,6 @@
 # Rezervasyon kapasite kontrolü uygulaması
 
-dosya=open("rezervasyon_2.txt","r+",encoding="utf-8")
+dosya=open(".\\dosyaislemleriornek\\rezervasyon_2.txt","r+",encoding="utf-8")
 rezervasyonlar=dosya.readlines()
 
 rezervasyon_kapasitesi=5

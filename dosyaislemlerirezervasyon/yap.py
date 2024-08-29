@@ -1,6 +1,6 @@
 def rezervasyon_yap():
   rezervasyon_kapasitesi=5
-  dosya=open("rezervasyon.txt","r+", encoding="utf-8")
+  dosya=open(".\\dosyaislemlerirezervasyon\\rezervasyon.txt","r+", encoding="utf-8")
   rezervasyonlar=dosya.readlines()
   mecut_rezervasyon=len(rezervasyonlar)
   if rezervasyon_kapasitesi-mecut_rezervasyon > 0 :
