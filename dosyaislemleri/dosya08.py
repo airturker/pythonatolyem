@@ -1,6 +1,6 @@
 # dosya ortalarına ekleme yapmak. satırları kaydırarak.
 
-with open("fihrist.txt", "r+",encoding="utf-8") as f:
+with open(".\\dosyaislemleri\\fihrist.txt", "r+",encoding="utf-8") as f:
     veri = f.readlines()
     veri.insert(2, "Sedat Köz\t: 0322 234 45 45\n") # 2. indekse eklemeyi yapar.
     f.seek(0)
