@@ -8,8 +8,8 @@ window.title("python öğreniyorum")
 
 selamla = tk.Label(
     text="Hello, Tkinter",
-    fg="bisque2",
-    bg="tomato",
+    fg="black",
+    bg="red",
     width=10,
     height=10
     )
