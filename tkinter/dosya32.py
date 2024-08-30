@@ -7,7 +7,7 @@ def save_info():
     
     print(firstname_info,lastname_info,age_info)
     
-    file = open("user.txt","w")
+    file = open(".\\tkinter\\user.txt","w")
     
     file.write("Your First Name : " + firstname_info)
     

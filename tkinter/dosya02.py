@@ -8,10 +8,10 @@ window.title("python öğreniyorum")
 
 selamla = tk.Label(
     text="Hello, Tkinter",
-    fg="black",
+    fg="white",
     bg="red",
     width=10,
-    height=10
+    height=30
     )
 
 selamla.pack()

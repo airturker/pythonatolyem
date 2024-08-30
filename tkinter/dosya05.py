@@ -5,7 +5,7 @@ window = tk.Tk()
 cerceve_1 = tk.Frame()
 cerceve_2 = tk.Frame()
 
-label_a = tk.Label(master=cerceve_1, text="ben çerçeve A dayım")
+label_a = tk.Label(master=cerceve_1, bg="lightgreen", text="ben çerçeve A dayım")
 label_a.pack()
 
 label_b = tk.Label(master=cerceve_2, text="ben çerçeve B deyim")

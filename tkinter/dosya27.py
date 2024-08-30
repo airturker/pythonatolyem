@@ -8,7 +8,7 @@ root = Tk()
 var = StringVar()
 var.set(0)
 R1 = Radiobutton(root, text="türker", variable=var, value="turker", command=sel)
-R1.pack( anchor = W )
+R1.pack( anchor = E )
 
 R2 = Radiobutton(root, text="kemal", variable=var, value="kemal", command=sel)
 R2.pack( anchor = W )
