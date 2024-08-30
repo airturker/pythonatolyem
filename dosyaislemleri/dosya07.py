@@ -2,4 +2,4 @@
 
 with open(".\\dosyaislemleri\\fihrist.txt", "r+",encoding="utf-8") as f:
     f.seek(0)
-    f.write("Sedat Köz\t: 0322 234 45 45\n")
+    f.write("veli demir\t: 0322 234 45 45\n")
